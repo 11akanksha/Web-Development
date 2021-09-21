@@ -1,0 +1,38 @@
+body{
+    background-color: burlywood;
+}
+
+h1{
+    text-align : center;
+}
+
+.cat-paws{
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+}
+
+.cats{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+.ID{
+    background-color: blanchedalmond;
+    margin: 100px 300px;
+}
+
+.id-img{
+    float: left;
+    margin-right: 30px;
+}
+
+h2{
+    color:brown;
+    text-align: center;
+}
+
+.tag{
+    font-weight: 800;
+}
