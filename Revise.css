@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c25f13;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+}
+
+h1,h2,h3{
+    color:tomato;
+}
+
+section{
+    text-align: center;
+    margin: 3rem;
+    background-color: blanchedalmond;
+}
+
+.first{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FFC4E1;
+    padding: 2rem;
+    text-align: right;
+}
+
+span{
+    background-color:rgb(229, 238, 105);
+}
+
+.second{
+    background-color: #FFCC1D;
+    margin: 40rem solid;
+    text-align: left;
+}
+
+li.childhood{
+    color:chocolate;
+    text-shadow: 4px 4px 3px #FFF1AF;
+}
+
+li.childhood.horror{
+    color: red;
+}
+
+#lyrical{
+    border: brown 2px solid;
+}
+
+p > .special{
+    font-style: italic;
+    color:blue;
+}
+ 
+section.first p.refrain {
+    color:blueviolet;
+    line-height: 3rem;
+    font-size: 2rem;
+}
+
+ul li {
+    list-style-type: disc;
+}
+  
+ul li li {
+    list-style-type: circle;
+}
