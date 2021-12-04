@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Page 1</title>
+</head>
+
+<body style="background-color: blanchedalmond;">
+    <h2>Hello There!</h2>
+    <form action="index.html" method="post">
+        <h3>Contact Me:</h3>
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label for="name">Enter your name:</label><br>
+            <input type="text" placeholder="Your Name"><br><br>
+            <label for="mail">Your e-mail:</label><br>
+            <input type="email" name="mail" placeholder="xyz@abc.com" required><br><br>
+            <label for="feedback">Did you like my webpage?</label><br>
+            <input type="range" id="feedback" name="feedback" min="-10" max="10"><br><br>
+            <label for="colour">Your favourite colour:</label><br>
+            <input type="checkbox" name="c1" id="colour" value="Violet" checked>Violet<br>
+            <input type="checkbox" name="c2" id="colour" value="Red">Red<br>
+            <input type="checkbox" name="c3" id="colour" value="Blue">Blue<br>
+            <input type="checkbox" name="c4" id="colour" value="White">White<br>
+            <input type="checkbox" name="c5" id="colour" value="Black">Black<br>
+            <input type="checkbox" name="c6" id="colour" value="Pink">Pink<br>
+            <input type="checkbox" name="c7" id="colour" value="Yellow">Yellow<br>
+            <input type="checkbox" name="c8" id="colour" value="Other">Other<br><br>
+            <label for="gr">Your gender:</label><br>
+            <input type="radio" name="gender" id="gr" value="male">Male<br>
+            <input type="radio" name="gender" id="gr" value="female" checked>Female<br>
+            <input type="radio" name="gender" id="gr" value="TR">Rather not say<br><br>
+            <label for="travel">Where do you live:</label><br>
+            <select>
+                <optgroup label="India">
+                    <option value="CG">Chhattisgarh</option>
+                    <option value="O">Odisha</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Bgl">Bangalooru</option>
+                    <option value="Other">Other places</option>
+                </optgroup>
+                <optgroup label="Awesome Places">
+                    <option value="London" selected>London</option>
+                    <option value="USA">USA</option>
+                    <option value="Greece">Greece</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="UK">UK</option>
+                    <option value="Other">Other places</option>
+                </optgroup>
+            </select><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><label for="message">Your Message:</label><br></legend>
+            <textarea rows="15" cols="30" placeholder="I wanna talk to you about..."></textarea><br>
+        </fieldset><br><br>
+        <input type="reset" value="Reset" autofocus>
+        <button type="submit">
+            <!--Apparently autofocus doesn't work on buttons! -->
+            <img src="random.jpg" alt="Holiday Spot" height="20" width="40">
+            Submit
+        </button>
+    </form>
+</body>
+
+</html>
