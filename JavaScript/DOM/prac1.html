@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <button id="click-button">
+            Click Here!
+        </button>
+        <p id="target-text"></p>
+    </div>
+    <script>
+        const button = document.getElementById("click-button");
+        const PTag = document.getElementById("target-text");
+
+        button.addEventListener('click', function () {
+            PTag.innerHTML = "button was clicked!";
+        });
+    </script>
+</body>
+
+</html>
